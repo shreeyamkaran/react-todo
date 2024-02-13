@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    gap: 4px;
+}
+
+.task {
+    display: grid;
+    grid-template-columns: 0.2fr 9fr 1fr 1fr;
+    gap: 4px;
+}
